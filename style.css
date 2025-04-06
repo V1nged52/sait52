@@ -138,3 +138,50 @@ footer {
     color: #850AE5;
     font-weight: bolder;
 }
+
+.address::before {
+    content: url("house\ bomzha.svg");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+.tel::before {
+    content: url("mobila.svg");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.button:hover {
+    color: white;
+    background-color: orange;
+}
+
+.nav-link:hover {
+    color: lightblue;
+    border-bottom: 2px solid lightblue;
+}
+
+.social img:hover {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 15px;
+}
+
+.post:hover {
+    background-color: #133aac;
+    color: white;
+}
+
+.post:hover .article-but {
+    background-color: white;
+    color: blue;
+}
+
+.post:hover .post-img {
+    background-color: white;
+}
